@@ -46,7 +46,7 @@ FitStake aims to **motivate healthy competition and honest fitness progress** us
 ## 📄 Contract Details
 
 **Deployed contract address:**  
-`ST...your_contract_address_here.fitstake`
+`ST13BTWP8APD5QSAW8NBRQWG5KQGAEQZQBPC5B0F0.fit-stake`
 
 *(Replace with actual address once deployed)*
 
