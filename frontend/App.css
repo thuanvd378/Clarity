@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.App-header {
+  margin-bottom: 2rem;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #00ffc3, #00b3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  background: #00ffc3;
+  color: #000;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: #00b3ff;
+  color: white;
+}
+
+.create-section {
+  margin-bottom: 2rem;
+}
+
+.form-box {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 255, 195, 0.2);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  border: 1px solid #00ffc3;
+  font-size: 1rem;
+  background: #121212;
+  color: white;
+}
+
+.form-box label {
+  display: block;
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.form-box input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.challenge-list {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 179, 255, 0.2);
+}
+
+.challenge-list h2 {
+  margin-bottom: 1rem;
+}
+
+.challenge-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.challenge-list li {
+  background: #262626;
+  margin-bottom: 0.8rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 5px solid #00ffc3;
+  transition: all 0.2s ease-in-out;
+}
+
+.challenge-list li:hover {
+  background: #2e2e2e;
+  border-left-color: #00b3ff;
+}
+
+@media (max-width: 600px) {
+  .form-box,
+  .challenge-list {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .App-header h1 {
+    font-size: 2rem;
+  }
+}
